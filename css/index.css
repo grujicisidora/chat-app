@@ -1,0 +1,61 @@
+.one{
+	width: 60vw;
+	/*height: 70vh;*/
+	position: absolute;
+	top:3vh;
+	left: 20vw;	
+}
+.bgimg {
+    background-image: url('../images/app-background.jpg');
+    min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+#user_details {
+	height:80vh;
+}
+#user_model_details {
+	height:80vh;
+}
+
+.table-responsive{
+	
+	height: 65vh;
+	box-shadow: 0 20px 50px rgba(59, 43, 91, 0.7);
+	padding: 30px;
+	font-family: 'Roboto';
+	font-size:20px;
+	background-color: #ffe6ff;	
+
+	 border-bottom-right-radius: 15px;
+	 border-bottom-left-radius: 15px;
+}
+.form-header{
+	/*margin-top:10px; */
+	/*margin: -30px -30px 20px; /* top, left, right */
+	padding: 20px 20px 10px;
+	text-align: center;
+	background: #00cb82;
+	border-bottom: 1px solid #eee;
+	color: #fff;
+	padding: 30px 0;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+}
+.myclass{
+	/*font-size: 17px;*/
+	/*line-height: normal;
+	font-weight: 1000; */
+	font-size: 5vw; 
+	margin: 20px 0 15px;  
+	font-family: 'Courgette', sans-serif;
+	color: 4d004d;
+}
